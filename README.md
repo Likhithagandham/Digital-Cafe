@@ -41,6 +41,16 @@ This project is organized as a **Monorepo** for clean version control:
 ├── server/          # Node.js/Express Backend & Models
 ├── .gitignore       # Root level git ignore (Protects .env)
 └── README.md        # Documentation
+```
+
+## 📸 Screenshots
+
+<img width="1895" height="876" alt="image" src="https://github.com/user-attachments/assets/cffd9ba9-9640-4d36-b2a9-61bdf00e8ea4" />
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/db447203-a215-4ead-9371-494cd722d21d" />
+<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/2a1ad0e2-4a95-4f15-beb1-958b8b205b83" />
+<img width="1895" height="821" alt="image" src="https://github.com/user-attachments/assets/035ff516-03ab-4582-a432-d44eab5756ca" />
+
+
 
 🚀 Installation & Local Setup
 To run this project on your local machine:
