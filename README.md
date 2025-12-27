@@ -52,38 +52,10 @@ This project is organized as a **Monorepo** for clean version control:
 
 
 
-🚀 Installation & Local Setup
-To run this project on your local machine:
-
-Clone the repository:
-
-Bash
-
-git clone [https://github.com/Likhithagandham/Digital-Cafe.git](https://github.com/Likhithagandham/Digital-Cafe.git)
-cd Digital-Cafe
-Configure Backend:
-
-Navigate to /server.
-
-Install dependencies: npm install.
-
-Create a .env file and add: MONGO_URI=your_mongodb_connection_string.
-
-Start server: node index.js.
-
-Configure Frontend:
-
-Navigate to /client.
-
-Install dependencies: npm install.
-
-Start development server: npm run dev.
 
 📝 Future Enhancements
 [ ] Real-time notifications using Socket.io.
-
 [ ] User authentication (JWT) for individual customer accounts.
-
 [ ] Revenue analytics dashboard with charts.
 
 Developed with ❤️ by Likhitha Gandham
