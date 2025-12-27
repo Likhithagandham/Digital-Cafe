@@ -36,14 +36,14 @@ function App() {
 
   const fetchMenu = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/get-menu');
+      const res = await axios.get('https://digital-cafe.onrender.com/get-menu');
       setMenu(res.data);
     } catch (err) { console.error("Fetch Menu Error:", err); }
   };
 
   const fetchOrders = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/get-orders');
+      const res = await axios.get('https://digital-cafe.onrender.com/get-orders');
       setOrders(res.data);
     } catch (err) { console.error("Fetch Orders Error:", err); }
   };
@@ -54,7 +54,7 @@ function App() {
       total: cart.reduce((a, b) => a + b.price * b.qty, 0),
     };
     try {
-      await axios.post('http://localhost:5000/place-order', orderData);
+      await axios.post('https://digital-cafe.onrender.com/place-order', orderData);
       showNotification("🚀 Order sent to Kitchen!");
       setCart([]);
       setIsCartOpen(false);
