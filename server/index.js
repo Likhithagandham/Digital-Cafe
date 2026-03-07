@@ -29,7 +29,7 @@ app.post('/add-menu', async (req, res) => {
 
 app.get('/get-menu', async (req, res) => {
     try {
-        const menuItems = await MenuItem.find();
+        const menuItems = await MenuItem.all();
         res.status(200).json(menuItems);
     } catch (err) { res.status(500).json({ error: err.message }); }
 });
